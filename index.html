@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Threat Hunting</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+        }
+
+        header {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 40px;
+            vertical-align: middle;
+        }
+
+        .logo img {
+            width: 100%;
+        }
+
+        .title {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        .animated-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(-45deg, #222, #444, #222, #444);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .description {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        .moonlight-yellow {
+            color: #fff;
+            background-color: #f6d365;
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <header>
+        <div class="logo">
+            <img src="https://www.crowdstrike.com/wp-content/uploads/2018/12/overwatch-icon.png" alt="Logo">
+        </div>
+        <div class="title">Threat Hunting</div>
+    </header>
+
+    <div class="video-container">
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6UQc3BIxXDg?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="description">
+        <h2>What is Threat Hunting?</h2>
+        <p>
+            Threat hunting is the proactive and iterative process of searching for cyber threats within an organization's network. 
+            Unlike traditional cybersecurity measures that rely on predefined signatures and patterns, threat hunting involves actively 
+            looking for signs of malicious activity that may have gone unnoticed by traditional security tools. It aims to detect and 
+            mitigate threats before they cause significant damage.
+        </p>
+        <p>
+            Threat hunters use a combination of security expertise, data analysis, and cutting-edge tools to identify and respond to 
+            potential threats. This approach allows organizations to stay one step ahead of cyber attackers and safeguard their valuable 
+            data and assets.
+        </p>
+        <p>
+            By adopting a proactive threat hunting strategy, organizations can enhance their overall cybersecurity posture and reduce 
+            the risk of falling victim to advanced and sophisticated cyber threats.
+        </p>
+        <p>
+            <span class="moonlight-yellow">Stay vigilant and protect your systems under the moonlight yellow glow!</span>
+        </p>
+    </div>
+
+    <script>
+        // JavaScript code can be added here if needed in the future.
+    </script>
+</body>
+</html>
